@@ -21,9 +21,10 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    camelcase: 'off',
+    'camelcase': 'off',
     'no-console': 'warn',
     'no-useless-constructor': 'off',
-    semi: 'off'
+    'semi': 'off',
+    'no-unused-vars': ['error', { 'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': false }]
   }
 }
