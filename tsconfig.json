@@ -9,12 +9,17 @@
     "target": "ES2021",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+     "paths": {
+      "@/*":["./src/*"]
+     },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
+    "strict": true,
     "noImplicitAny": true,
     "strictBindCallApply": true,
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true
   }

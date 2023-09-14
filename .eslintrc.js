@@ -24,7 +24,6 @@ module.exports = {
     'camelcase': 'off',
     'no-console': 'warn',
     'no-useless-constructor': 'off',
-    'semi': 'off',
-    'no-unused-vars': ['error', { 'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': false }]
+    'semi': 'off'
   }
 }
